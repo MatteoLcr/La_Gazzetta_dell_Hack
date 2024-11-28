@@ -1,0 +1,112 @@
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .categoryName{
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .linea{
+    height: 0.5px;
+    width: 500px;
+    border: 0.5px solid rgba(0, 0, 0, 0.167);
+  }
+
+.logo{
+  font-family: "DM Serif Display", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+
+.socialbar{
+    height: 55px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    position:fixed;
+    bottom: 0px;
+}
+
+.socialbar_icon{
+  color: rgb(99, 0, 137);
+}
+
+.sottonavbar{
+    height: 40px;
+}
+.sottonavbarLink{
+    text-decoration: none;
+    color: rgb(99, 0, 137);
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sottonavbarLink:hover{
+    text-decoration: none;
+    color: rgb(166, 0, 232);
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sottonavbar2{
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 60px;
+  
+}
+
+.sottonavbarLink2{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.723);
+  padding-inline: 20px;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.region{
+  background-color: rgb(99, 0, 137);
+  color: whitesmoke;
+  height: 30px;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.styleTitle{
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+
+
+
+
+.imgDetailCard {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
